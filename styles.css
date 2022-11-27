@@ -20,13 +20,16 @@ body{
 }
 .button{
     display: inline-block;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin: 20px;
     border: solid black 10px;
     border-radius: 10%;
 }
 @media (max-width: 450px){
+    body{
+        margin: 50% auto;
+    }
     .game-status{
         font-size: 3rem;
     }
